@@ -8,7 +8,7 @@ const port=8060;
 
 app.use("/",route);
 const mongoos=require("mongoose");
-mongoos.connect("mongodb+srv://ashwinigadad3:2004%40ashu@cluster0.ewtr0b5.mongodb.net/?retryWrites=true&w=majority")
+mongoos.connect("mongodb+srv://ashwinigadad3:2004%40ashu@cluster0.ewtr0b5.mongodb.net/D_Project")
 .then(()=>{
     console.log("Mongodb got connected");
 })
