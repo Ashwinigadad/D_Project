@@ -2,7 +2,6 @@ const mongoose=require("../models/login");
 const logIn=mongoose.model("loginDetails");
 const bcrypt=require("bcrypt");
 const token=require("jsonwebtoken");
-console.log("Checking");
 const login=async (req, res) => {
     try {
 
