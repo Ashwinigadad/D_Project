@@ -1,9 +1,8 @@
 const mongoose = require("../models/signup");
-const SignUp = mongoose.model("SignUp"); // Adjust the model name as needed
+const SignUp = mongoose.model("SignUp"); 
 
 const signUp = async (req, res) => {
   try {
-    // User not found, create a new entry
     const newEntry = new SignUp({
       email: req.body.email,
       password: req.body.password,
