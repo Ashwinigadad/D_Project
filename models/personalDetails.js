@@ -79,3 +79,4 @@ const personalDetailsSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('PersonalDetails', personalDetailsSchema);
+console.log("hello");
