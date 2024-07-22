@@ -8,69 +8,69 @@ const personalDetailsSchema = new mongoose.Schema({
   },
   name:{
     type:String,
-    // required:true
+    required:true
   },
   sem:{
     type:String,
-    // required:true
+    required:true
   },
   branch:{
     type:String,
-    // required:true
+    required:true
 
   },
   year:{
     type:String,
-    // required:true
+    required:true
   },
   email: {
     type: String,
-    // required: true,
+    required: true,
   },
   password: {
     type: String,
-    // required: true,
+    required: true,
   },
   USN: {
     type: String,
-    // required: true,
+    required: true,
   },
   Phone: {
     type: String,
-    // required: true,
+    required: true,
   },
   Adress:{
     type:String,
-    // required:true
+    required:true
   },
   parentDetails:{
     FatherName:{
         type:String,
-        // required:true
+        required:true
     },
     Foccupation:{
         type:String,
-        // required:true
+        required:true
 
     },
     MotherName:{
         type:String,
-        // required:true
+        required:true
     },
     Moccupation:{
         type:String,
-        // required:true
+        required:true
     }
 
   },
   studyDetails:{
     SSLC:{
         type:String,
-        // required:true
+        required:true
     },
     PUC:{
         type:String,
-        // required:true
+        required:true
     }
 
   }
