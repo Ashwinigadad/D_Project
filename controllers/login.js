@@ -9,7 +9,7 @@ const login=async (req, res) => {
       const hashedPassword = await bcrypt.hash(req.body.password, salt);
 
   
-        // User not found, create a new entry
+        // if User not found, create a new entry
         const loginEntry = new logIn({
           email: req.body.email,
           password:hashedPassword,
